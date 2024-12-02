@@ -63,7 +63,7 @@ const PasskeyModal = () => {
                     </AlertDialogTitle>
                     <AlertDialogDescription>
                         To access the admin page please enter the passkey.
-                        <p className="shad-error text-14-regular mt-4 flex justify-start">the passkey is &apos111111&apos, I put it because its a learning project.</p>
+                        <p className="shad-error text-14-regular mt-4 flex justify-start">the passkey is 111111 , I put it because its a learning project.</p>
                     </AlertDialogDescription>
                     <div className="pt-4">
                         <InputOTP maxLength={6} value={passkey} onChange={(value) => setPasskey(value)}>
